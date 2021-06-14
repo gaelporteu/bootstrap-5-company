@@ -1,0 +1,22 @@
+@use '../custom' as *;
+
+.companies {
+  padding: 0 0 5rem 0;
+
+  i {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+
+    &.fab {
+      color: $secondary;
+      max-width: 100%;
+      font-size: 7rem;
+
+      &:hover {
+        filter: grayscale(120);
+      }
+    }
+  }
+}
