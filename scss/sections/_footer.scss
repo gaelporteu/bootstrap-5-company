@@ -5,3 +5,28 @@
   padding-top: 1rem;
   background-color: $footer;
 }
+
+// Style the contact-box content
+.contact-box {
+    position: relative;
+
+    &__icon {
+        width: 4rem;
+        stroke: $primary;
+    }
+
+    &__info {
+        padding: .4rem;
+        font-weight: 600;
+        &--title {
+            color: $white;
+            text-decoration: none;
+        }
+
+        &--subtitle {
+            font-size: 1rem;
+            color: $gray-600;
+            text-decoration: none;
+        }
+    }
+}
